@@ -22,7 +22,7 @@ int main()
 	{
 		cout << "\n===========================================\nList of activities:\n===========================================\n";
 		cout << "1. Output variables\n2. Input\n3. Multiple inputs\n4. Scope\n5. Selection - part A\n6. Selection - part B\n7. HW1 - Grading Program\n8. HW2 - Cola Machine\n0. Exit";
-		
+
 		cout << "\nChoose activity to show: ";
 		cin >> activity;
 		cout << "\n____________________________________________\n";
@@ -59,7 +59,7 @@ int main()
 
 	}
 	system("pause");
-    return 0;
+	return 0;
 }
 
 void activity_1()
