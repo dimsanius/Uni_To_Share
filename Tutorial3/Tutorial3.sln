@@ -11,7 +11,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 do_while Loops", "Ex3 d
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw1 While user is gullible", "Hw1 While user is gullible\Hw1 While user is gullible.vcxproj", "{DCBD3CBB-D0B1-4493-BE94-BA78557938CB}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw2 Cumulative savings", "Hw2 Cumulative savings\Hw2 Cumulative savings.vcxproj", "{FB5C0D93-DEEB-4F6C-9444-5DC2F160AF0A}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw2 Cumulative savings Easy", "Hw2 Cumulative savings\Hw2 Cumulative savings.vcxproj", "{FB5C0D93-DEEB-4F6C-9444-5DC2F160AF0A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw2 Cumulative savings hard", "Hw2 Cumulative savings hard\Hw2 Cumulative savings hard.vcxproj", "{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -61,6 +63,14 @@ Global
 		{FB5C0D93-DEEB-4F6C-9444-5DC2F160AF0A}.Release|x64.Build.0 = Release|x64
 		{FB5C0D93-DEEB-4F6C-9444-5DC2F160AF0A}.Release|x86.ActiveCfg = Release|Win32
 		{FB5C0D93-DEEB-4F6C-9444-5DC2F160AF0A}.Release|x86.Build.0 = Release|Win32
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Debug|x64.ActiveCfg = Debug|x64
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Debug|x64.Build.0 = Debug|x64
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Debug|x86.Build.0 = Debug|Win32
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Release|x64.ActiveCfg = Release|x64
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Release|x64.Build.0 = Release|x64
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Release|x86.ActiveCfg = Release|Win32
+		{9D0D66B0-915F-4A37-BB42-7AF133FCAF5A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
