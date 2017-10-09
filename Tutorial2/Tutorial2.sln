@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2 Input", "Ex2 Input\Ex2 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 Multiple inputs", "Ex3 Multiple inputs\Ex3 Multiple inputs.vcxproj", "{59C1E9C4-D331-4687-908B-35E96AC5CC0D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex4 Scope", "Ex4 Scope\Ex4 Scope.vcxproj", "{F1AACF33-831B-4FF4-AC20-5E4127AB3583}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{59C1E9C4-D331-4687-908B-35E96AC5CC0D}.Release|x64.Build.0 = Release|x64
 		{59C1E9C4-D331-4687-908B-35E96AC5CC0D}.Release|x86.ActiveCfg = Release|Win32
 		{59C1E9C4-D331-4687-908B-35E96AC5CC0D}.Release|x86.Build.0 = Release|Win32
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Debug|x64.ActiveCfg = Debug|x64
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Debug|x64.Build.0 = Debug|x64
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Debug|x86.ActiveCfg = Debug|Win32
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Debug|x86.Build.0 = Debug|Win32
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x64.ActiveCfg = Release|x64
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x64.Build.0 = Release|x64
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x86.ActiveCfg = Release|Win32
+		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
