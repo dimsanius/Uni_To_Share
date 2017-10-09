@@ -15,6 +15,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex5 Selection (2 variables)
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex5 Selection (3 variables)", "Ex5 Selection (3 variables)\Ex5 Selection (3 variables).vcxproj", "{8C546BE8-927F-4826-AB62-AFB9CDB5F3CC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw1 Grading Program", "Hw1 Grading Program\Hw1 Grading Program.vcxproj", "{4940722B-27B8-406E-B81A-82DBB2212111}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -71,6 +73,14 @@ Global
 		{8C546BE8-927F-4826-AB62-AFB9CDB5F3CC}.Release|x64.Build.0 = Release|x64
 		{8C546BE8-927F-4826-AB62-AFB9CDB5F3CC}.Release|x86.ActiveCfg = Release|Win32
 		{8C546BE8-927F-4826-AB62-AFB9CDB5F3CC}.Release|x86.Build.0 = Release|Win32
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Debug|x64.ActiveCfg = Debug|x64
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Debug|x64.Build.0 = Debug|x64
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Debug|x86.ActiveCfg = Debug|Win32
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Debug|x86.Build.0 = Debug|Win32
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Release|x64.ActiveCfg = Release|x64
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Release|x64.Build.0 = Release|x64
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Release|x86.ActiveCfg = Release|Win32
+		{4940722B-27B8-406E-B81A-82DBB2212111}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
