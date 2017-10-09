@@ -10,7 +10,7 @@ int main()
 	{
 		sum += counter;
 		counter++;
-		cout << sum << endl;
+		cout << "Sum of previous values: " << sum << endl;
 	}
 	system("pause");
 	return 0;
