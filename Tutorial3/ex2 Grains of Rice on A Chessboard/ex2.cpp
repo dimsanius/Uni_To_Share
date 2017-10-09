@@ -7,6 +7,7 @@ int main()
 {
 	double rice_everyday = 1;
 	double total_rice = rice_everyday;
+	//int cant handle so great values, so used variable type double
 	int counter = 1;
 	while (counter <= 64)
 	{
