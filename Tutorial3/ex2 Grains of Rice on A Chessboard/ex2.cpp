@@ -5,16 +5,16 @@ using namespace std;
 
 int main()
 {
-	double rice_everyday = 1;
-	double total_rice = rice_everyday;
+	double riceToday = 1;
+	double totalRice = riceToday;
 	//int cant handle so great values, so used variable type double
-	int counter = 1;
-	while (counter <= 64)
+	int day = 1;
+	while (day <= 64)
 	{
-		cout << "Day " << counter << ": " << fixed << setprecision (0) << rice_everyday << " rice today, " << fixed << setprecision(0) << total_rice << " total rice so far." << endl;
-		rice_everyday *= 2;
-		total_rice += rice_everyday;
-		counter++;
+		cout << "Day " << day << ": " << fixed << setprecision (0) << riceToday << " rice today, " << fixed << setprecision(0) << totalRice << " total rice so far." << endl;
+		riceToday *= 2;
+		totalRice += riceToday;
+		day++;
 	}
 	system("pause");
 	return 0;
