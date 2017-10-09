@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 Multiple inputs", "Ex3 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex4 Scope", "Ex4 Scope\Ex4 Scope.vcxproj", "{F1AACF33-831B-4FF4-AC20-5E4127AB3583}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex5 Selection (2 variables)", "Ex5 Selection (2 variables)\Ex5 Selection (2 variables).vcxproj", "{443078F8-5290-48A4-B4A3-E51BE21F1BC6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x64.Build.0 = Release|x64
 		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x86.ActiveCfg = Release|Win32
 		{F1AACF33-831B-4FF4-AC20-5E4127AB3583}.Release|x86.Build.0 = Release|Win32
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Debug|x64.ActiveCfg = Debug|x64
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Debug|x64.Build.0 = Debug|x64
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Debug|x86.ActiveCfg = Debug|Win32
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Debug|x86.Build.0 = Debug|Win32
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Release|x64.ActiveCfg = Release|x64
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Release|x64.Build.0 = Release|x64
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Release|x86.ActiveCfg = Release|Win32
+		{443078F8-5290-48A4-B4A3-E51BE21F1BC6}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
