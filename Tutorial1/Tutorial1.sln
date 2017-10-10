@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 Hello world", "Ex3 Hello world\Ex3 Hello world.vcxproj", "{3E6FAABF-090C-4AE6-85EE-EEEA0343D59B}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex4 ASCII art challenge", "Ex4 ASCII art challenge\Ex4 ASCII art challenge.vcxproj", "{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{3E6FAABF-090C-4AE6-85EE-EEEA0343D59B}.Release|x64.Build.0 = Release|x64
 		{3E6FAABF-090C-4AE6-85EE-EEEA0343D59B}.Release|x86.ActiveCfg = Release|Win32
 		{3E6FAABF-090C-4AE6-85EE-EEEA0343D59B}.Release|x86.Build.0 = Release|Win32
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Debug|x64.ActiveCfg = Debug|x64
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Debug|x64.Build.0 = Debug|x64
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Debug|x86.ActiveCfg = Debug|Win32
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Debug|x86.Build.0 = Debug|Win32
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Release|x64.ActiveCfg = Release|x64
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Release|x64.Build.0 = Release|x64
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Release|x86.ActiveCfg = Release|Win32
+		{6E1879FD-2A57-4EE2-9400-144E8AB2C9DF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
