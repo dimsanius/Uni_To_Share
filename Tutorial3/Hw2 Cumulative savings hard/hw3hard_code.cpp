@@ -8,24 +8,16 @@ int main()
 	double savingsA = 25000;
 	double savingsB = 25000;
 	int year = 0;
-	double neededDiff = 2;
-	double existingDiff = 1;
+	double existingDiff;
+
 	while (savingsA > 0.005)
 	{
 		year++;
-		//cout << "Year " << year << " total savings: " << endl;
 		savingsA *= 0.8;
 		savingsB *= 1.08;
-		//cout << "\tSaver A: " << fixed << setprecision(2) << savingsA << endl;
-		//cout << "\tSaver B: " << fixed << setprecision(2) << savingsB << endl << endl;
-
 		existingDiff = savingsB / savingsA;
-		cout << fixed << setprecision(0) << existingDiff << endl;
-		if (existingDiff == neededDiff && neededDiff < 11)
-		{
-			cout << "Price difference is " << neededDiff << ". And the year is " << year << endl;
-			neededDiff++;
-		}
+		if (existingDiff < 11.00)
+			cout << "In the year " << year << ", price difference is " << fixed << setprecision(2) << existingDiff << ". \n \t Saver A has " << savingsA << ". \n\t Saver B has " << savingsB << endl;
 	}
 	system("pause");
 	return 0;
