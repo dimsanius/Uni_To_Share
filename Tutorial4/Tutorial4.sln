@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1 Counter Control", "Ex1 
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2 2Dimensional Counter Control", "Ex2 2Dimensional Counter Control\Ex2 2Dimensional Counter Control.vcxproj", "{F6DAFBD0-BD4E-4274-B78D-BF2E6E0B9C42}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw1 Stars and Stripes", "Hw1 Stars and Stripes\Hw1 Stars and Stripes.vcxproj", "{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{F6DAFBD0-BD4E-4274-B78D-BF2E6E0B9C42}.Release|x64.Build.0 = Release|x64
 		{F6DAFBD0-BD4E-4274-B78D-BF2E6E0B9C42}.Release|x86.ActiveCfg = Release|Win32
 		{F6DAFBD0-BD4E-4274-B78D-BF2E6E0B9C42}.Release|x86.Build.0 = Release|Win32
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Debug|x64.ActiveCfg = Debug|x64
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Debug|x64.Build.0 = Debug|x64
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Debug|x86.ActiveCfg = Debug|Win32
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Debug|x86.Build.0 = Debug|Win32
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Release|x64.ActiveCfg = Release|x64
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Release|x64.Build.0 = Release|x64
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Release|x86.ActiveCfg = Release|Win32
+		{1ED2A1B8-15CB-4628-8CA2-546C7CB69FA7}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
