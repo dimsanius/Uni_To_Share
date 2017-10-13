@@ -4,6 +4,7 @@ using namespace std;
 
 int main() {
 	int choice;
+	int stars = -1;
 	while(true)
 	{
 		cout << "Choose level of excercise:\n1. Easy\n2. Medium\n3. Hard\n0. Exit" << endl;
@@ -35,47 +36,38 @@ int main() {
 			break;
 
 		case 3:
-			
+
 			//*----------------
-			int middleTree = 5;
-			for (int i = 0; i <= 5; i++)
+			for (int i = 1; i <= 6; i++)
 			{
-				for (int j = 0; j < 40; j++)
+				for (int j = 0; j < 8; j++)
 				{
-					if (j % 5 == 0 && j != 0)
-						cout << "|";
-
-
-					if (i > 0 && (j == middleTree-1 || j == middleTree))
+					if (j % 2 == 0)
 					{
-						cout << "*";
+						
+								for(int k = 0; k < 6-i;k++)
+									cout << "-";
+									
+								for (int b = 1; b < i; b++)
+									cout << "*";
+
+								cout << "|";
 					}
-
-					if( i > 1 && (j == middleTree+9 && j = middleTree+10))
-					{
-						cout << "*";
-					}			
-
-					for(int z = i*2; z<= 10)
 					else
+					{
 
-						cout << "-";
-					
+						for (int b = 1; b < i; b++)
+							cout << "*";
+
+						for (int k = 0; k < 6 - i; k++)
+							cout << "-";
+
+						if(j < 7)
+							cout << "|";
+					}
 				}
 				cout << endl;
-
 			}
-
-				
-			
-		
-
-
-
-
-
-			//-----------------
-
 
 			break;
 
