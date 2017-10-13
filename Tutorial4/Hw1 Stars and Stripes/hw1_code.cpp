@@ -37,10 +37,9 @@ int main() {
 
 		case 3:
 
-			//*----------------
-			for (int i = 1; i <= 6; i++)
+			for (int i = 1; i <= 6; i++)							//amount of lines
 			{
-				for (int j = 0; j < 8; j++)
+				for (int j = 0; j < 8; j++)							//amount of tree halves
 				{
 					if (j % 2 == 0)
 					{
