@@ -68,9 +68,14 @@ int productOfTwoInts(int a, int b)
 
 int half(int numberWeAreDividing)
 {
-	cout << numberWeAreDividing << ", ";
+	if(numberWeAreDividing < 3)
+	cout << numberWeAreDividing << "." << endl;
+	else
+	{
+		cout << numberWeAreDividing << ", ";
+	}
 	numberWeAreDividing /= 2;
-	if (numberWeAreDividing > 1)
+	if (numberWeAreDividing > 0)
 		return half(numberWeAreDividing);
 	else
 	{	
