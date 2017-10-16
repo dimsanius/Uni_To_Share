@@ -13,6 +13,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex4 Cuboid surface area", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex5 Separating project into files", "Ex5 Separating project into files\Ex5 Separating project into files.vcxproj", "{6B1E1A04-2A4C-4A05-B093-72B5811F4C3D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw1 Fun functions", "Hw1 Fun functions\Hw1 Fun functions.vcxproj", "{AF3296CB-0DDC-4678-8D48-62FE049780CF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -61,6 +63,14 @@ Global
 		{6B1E1A04-2A4C-4A05-B093-72B5811F4C3D}.Release|x64.Build.0 = Release|x64
 		{6B1E1A04-2A4C-4A05-B093-72B5811F4C3D}.Release|x86.ActiveCfg = Release|Win32
 		{6B1E1A04-2A4C-4A05-B093-72B5811F4C3D}.Release|x86.Build.0 = Release|Win32
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Debug|x64.ActiveCfg = Debug|x64
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Debug|x64.Build.0 = Debug|x64
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Debug|x86.ActiveCfg = Debug|Win32
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Debug|x86.Build.0 = Debug|Win32
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Release|x64.ActiveCfg = Release|x64
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Release|x64.Build.0 = Release|x64
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Release|x86.ActiveCfg = Release|Win32
+		{AF3296CB-0DDC-4678-8D48-62FE049780CF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
