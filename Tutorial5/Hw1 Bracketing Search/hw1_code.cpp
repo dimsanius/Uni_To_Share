@@ -2,6 +2,7 @@
 #include <iostream>
 #include <cstdlib>
 #include <time.h>
+#include <string>
 
 
 using namespace std;
@@ -14,6 +15,9 @@ int main()
 	srand(time(0));
 	//Generating random number based on seed
 	int randomNumber = rand() % 100;
+	string userCommand;
+	int generatedNumber;
+
 	while (true)
 	{
 		cout << "Enter difficulty of excercise:\n1. Easy\n2. Medium\n3. Hard\n0. Exit\n";
@@ -38,7 +42,22 @@ int main()
 			cout << "You guessed the number! Congratulations! It took you " << attempts << " attempts to guess." << endl;
 			break;
 		case 2:
+			cout << "Let me guess a number you think about.\n Type in:\n too low\n too high\n guessed" << endl;
+			generatedNumber = rand() % 100;
+			while (userCommand != "guessed")
+			{
+				cout << "Is your number " << generatedNumber << "?" << endl;
+				cin >> userCommand;
 
+				switch (userCommand)
+				{
+				case "":
+					break;
+				default:
+					break;
+				}
+
+			} 
 			break;
 
 		case 0:
