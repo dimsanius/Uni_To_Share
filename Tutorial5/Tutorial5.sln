@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1 Roman Numeral Challenge", "Ex1 Roman Numeral Challenge\Ex1 Roman Numeral Challenge.vcxproj", "{A74B1D0C-B1A7-4CF7-A77B-E2DF4406BC6C}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Hw1 Bracketing Search", "Hw1 Bracketing Search\Hw1 Bracketing Search.vcxproj", "{3028DE04-7C5A-4F51-A50F-1F90E9304F27}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{A74B1D0C-B1A7-4CF7-A77B-E2DF4406BC6C}.Release|x64.Build.0 = Release|x64
 		{A74B1D0C-B1A7-4CF7-A77B-E2DF4406BC6C}.Release|x86.ActiveCfg = Release|Win32
 		{A74B1D0C-B1A7-4CF7-A77B-E2DF4406BC6C}.Release|x86.Build.0 = Release|Win32
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Debug|x64.ActiveCfg = Debug|x64
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Debug|x64.Build.0 = Debug|x64
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Debug|x86.ActiveCfg = Debug|Win32
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Debug|x86.Build.0 = Debug|Win32
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Release|x64.ActiveCfg = Release|x64
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Release|x64.Build.0 = Release|x64
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Release|x86.ActiveCfg = Release|Win32
+		{3028DE04-7C5A-4F51-A50F-1F90E9304F27}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
