@@ -15,8 +15,11 @@ int main()
 	srand(time(0));
 	//Generating random number based on seed
 	int randomNumber = rand() % 100;
-	string userCommand;
+	int userCommand = -1;
 	int generatedNumber;
+	int upperBound=100, lowerBound=1;
+	int previoslyPressed=-1;
+	int minBound = 1, maxBound = 100, userChoice = 0;
 
 	while (true)
 	{
@@ -42,22 +45,29 @@ int main()
 			cout << "You guessed the number! Congratulations! It took you " << attempts << " attempts to guess." << endl;
 			break;
 		case 2:
-			cout << "Let me guess a number you think about.\n Type in:\n too low\n too high\n guessed" << endl;
-			generatedNumber = rand() % 100;
-			while (userCommand != "guessed")
-			{
-				cout << "Is your number " << generatedNumber << "?" << endl;
-				cin >> userCommand;
+			while (userChoice != 2)
+					{
+						cout << "Is your number less than " << (minBound + maxBound) / 2 << "?" << endl;
+						cout << "0.) no\n1.) yes\n2.) guessed" << endl;
+						cin >> userChoice;
 
-				switch (userCommand)
-				{
-				case "":
-					break;
-				default:
-					break;
-				}
-
-			} 
+						if (userChoice == 0)
+						{
+							minBound = (maxBound + minBound) / 2;
+						}
+						else
+						{
+							if (userChoice == 1)
+							{
+								maxBound = (minBound + maxBound) / 2;
+							}
+							else
+							{
+								cout << "Hehe, your number is " << (minBound + maxBound) / 2 << "." << endl;
+								break;
+							}
+						}
+					}
 			break;
 
 		case 0:
