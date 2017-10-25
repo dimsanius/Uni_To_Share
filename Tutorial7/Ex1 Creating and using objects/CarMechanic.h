@@ -1,7 +1,11 @@
-#pragma once
-#include <string>
-#include "Car.h"
+//#pragma once
 
+//#include "Car.h"
+
+#ifndef CAR_MECH_H
+#define CAR_MECH_H
+
+class Car;
 
 class CarMechanic
 {
@@ -13,7 +17,10 @@ public:
 	~CarMechanic();
 
 	void repairCar(Car & carToFix);
+	std::string getMechanicName();
+	//Car* getCar(Car* c);
 
+//protected:
+	//Car* c;
 };
-
-
+#endif

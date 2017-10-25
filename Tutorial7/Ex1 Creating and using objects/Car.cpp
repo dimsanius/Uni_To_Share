@@ -53,7 +53,7 @@ void Car::breakDownNow()
 	brokenDown = true;
 }
 
-void Car::repairNow()
+ void Car::repairNow()
 {
 	brokenDown = false;
 }
@@ -66,3 +66,18 @@ bool Car::isBrokenDown()
 		return true;
 
 }
+
+std::string Car::getlastMechanicName(CarMechanic & mechanic)
+{
+	return mechanic.getMechanicName();
+}
+
+void Car::setlastMechanicName(CarMechanic & mechanic)
+{
+	lastMechanicName = getlastMechanicName(mechanic);
+}
+
+//CarMechanic * Car::getCarMechanic(CarMechanic * cm)
+//{
+//	return cm;
+//}

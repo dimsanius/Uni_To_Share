@@ -1,6 +1,14 @@
 #include <iostream>
-#include "Car.h"
+
+#ifndef CAR_MECHANIC_H1
+#define CAR_MECHANIC_H1
 #include "CarMechanic.h"
+
+#ifndef CAR_H1
+#define CAR_H1
+#include "Car.h"
+
+
 
 using namespace std;
 
@@ -78,3 +86,6 @@ int main()
 
 	return 0;
 }
+
+#endif
+#endif
