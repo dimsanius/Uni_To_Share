@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1 Creating and Using Objects", "Ex1 Creating and Using Objects\Ex1 Creating and Using Objects.vcxproj", "{37A4DB5C-C06A-4622-960F-F94941DC48F0}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Tutorial7 Bicycle Simulator", "..\..\..\..\Desktop\Ex2 Bicycle Simulation - Copy\Win32Console\Win32Console.vcxproj", "{54935CB6-D971-455D-8B4C-5977362926BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,12 @@ Global
 		{37A4DB5C-C06A-4622-960F-F94941DC48F0}.Release|x64.Build.0 = Release|x64
 		{37A4DB5C-C06A-4622-960F-F94941DC48F0}.Release|x86.ActiveCfg = Release|Win32
 		{37A4DB5C-C06A-4622-960F-F94941DC48F0}.Release|x86.Build.0 = Release|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Debug|x64.ActiveCfg = Debug|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Debug|x86.ActiveCfg = Debug|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Debug|x86.Build.0 = Debug|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Release|x64.ActiveCfg = Release|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Release|x86.ActiveCfg = Release|Win32
+		{54935CB6-D971-455D-8B4C-5977362926BA}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
