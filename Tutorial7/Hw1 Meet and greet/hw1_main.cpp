@@ -10,9 +10,7 @@ using namespace std;
 int main()
 {
 	Student firstStudent;
-	srand(time(0));
 	Student secondStudent;
-	srand(time(0));
 	Student thirdStudent;
 
 	firstStudent.greet();
