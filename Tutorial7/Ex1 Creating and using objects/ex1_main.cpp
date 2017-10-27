@@ -23,10 +23,14 @@ int main()
 	
 	std::cout << "Speedster drives: " << std::endl;
 
+
+
 	if (!speedster.isBrokenDown())
 	{
 		while (speedster.hasFuel())
 		{
+			if (!speedster.hasOil())
+				mechanic.oilChange(speedster);
 			speedster.drive();
 		}
 
@@ -41,6 +45,8 @@ int main()
 		std::cout << "Speedster drives once again: " << std::endl;
 		while (speedster.hasFuel())
 		{
+			if (!speedster.hasOil())
+				mechanic.oilChange(speedster);
 			speedster.drive();
 		}
 	}
@@ -67,6 +73,8 @@ int main()
 			std::cout << "Bzzz... Wrooom! Mechanics done! Car is repaired!" << std::endl;
 			while (speedster.hasFuel())
 			{
+				if (!speedster.hasOil())
+					mechanic.oilChange(speedster);
 				speedster.drive();
 			}
 
@@ -74,6 +82,16 @@ int main()
 		}
 		
 	}
+
+	string sprayColortoPaint;
+	cout << "Choose color to respray: ";
+	cin >> sprayColortoPaint;
+	mechanic.resprayCar(speedster, sprayColortoPaint);
+	cout << "Got it! Now your car is " << speedster.getColor() << endl;
+
+
+	mechanic.resprayCar(speedster, sprayColortoPaint);
+	std::cout << "Totally driven " << speedster.getTotalKmTravelled() << " km." << endl;
 		
 	std::cout << "myCarObject1 drives: " << std::endl;
 	while (myCarObject1.hasFuel())

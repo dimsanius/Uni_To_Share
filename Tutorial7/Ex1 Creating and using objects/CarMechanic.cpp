@@ -18,12 +18,16 @@ void CarMechanic::repairCar(Car & carToFix)
 	
 }
 
-std::string CarMechanic::getMechanicName()
+void CarMechanic::oilChange(Car & carToReoil)
 {
-	return name;
+	std::cout << "Mechanic " << name << " is changing oil!!!" << std::endl;
+	carToReoil.ReOil();
+
 }
 
-//Car * CarMechanic::getCar(Car* c)
-//{
-//	return c;
-//}
+void CarMechanic::resprayCar(Car & carToRespray, std::string sprayColor)
+{
+	carToRespray.respray(sprayColor);
+
+}
+

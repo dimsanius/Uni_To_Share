@@ -4,7 +4,7 @@
 
 #ifndef CAR_MECH_H
 #define CAR_MECH_H
-
+#include "Car.h"
 class Car;
 
 class CarMechanic
@@ -17,10 +17,7 @@ public:
 	~CarMechanic();
 
 	void repairCar(Car & carToFix);
-	std::string getMechanicName();
-	//Car* getCar(Car* c);
-
-//protected:
-	//Car* c;
+	void oilChange(Car & carToReoil);
+	void resprayCar(Car & carToRespray, std::string sprayColor);
 };
 #endif

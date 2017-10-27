@@ -20,19 +20,21 @@ Car::~Car()
 }
 
 void Car::drive() 
-{
-	if (brokenDown == true)
-	{ 
-		std::cout << "Can't drive! Car is broken down! Needs fixing." << std::endl;
-	}
-	else
-	{
-		if (fuelLeft > 0)
+{	
+		if (brokenDown == true)
 		{
-			fuelLeft--;
-			std::cout << "drives car 1km" << std::endl;
+			std::cout << "Can't drive! Car is broken down! Needs fixing." << std::endl;
 		}
-	}
+		else
+		{
+			if (fuelLeft > 0)
+			{
+				fuelLeft--;
+				oilQuality--;
+				std::cout << "drives car 1km" << std::endl;
+				totalKmTravelled++;
+			}
+		}
 }
 
 bool Car::hasFuel()
@@ -67,14 +69,32 @@ bool Car::isBrokenDown()
 
 }
 
-std::string Car::getlastMechanicName(CarMechanic & mechanic)
+int Car::getTotalKmTravelled()
 {
-	return mechanic.getMechanicName();
+	return totalKmTravelled;
 }
 
-void Car::setlastMechanicName(CarMechanic & mechanic)
+bool Car::hasOil()
 {
-	lastMechanicName = getlastMechanicName(mechanic);
+	if (oilQuality == 0)
+		return 0;
+	else
+		return 1;
+}
+
+void Car::ReOil()
+{
+	oilQuality = 3;
+}
+
+void Car::respray(std::string colorToRespray)
+{
+	color = colorToRespray;
+}
+
+std::string Car::getColor()
+{
+	return color;
 }
 
 //CarMechanic * Car::getCarMechanic(CarMechanic * cm)
