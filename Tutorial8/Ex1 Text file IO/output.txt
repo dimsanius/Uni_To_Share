@@ -1,0 +1,2 @@
+Hello text file!
+This will be inside output.txt

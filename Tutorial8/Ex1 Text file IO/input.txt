@@ -1,0 +1,4 @@
+this is text
+from inside
+input.txt
+hello text file input!
