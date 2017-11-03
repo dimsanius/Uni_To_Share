@@ -6,6 +6,7 @@
 
 Student::Student()
 {
+	//setting random name from a pull of 10
 	std::string POSSIBLENAMES[10] = { 
 		"John" , 
 		"Bob", 
@@ -20,7 +21,7 @@ Student::Student()
 	int randomNumber = rand() % 10;
 	name = POSSIBLENAMES[randomNumber];
 
-	//setting random fav color from a pull of 5
+	//setting random fav color from a pull of 10
 	randomNumber = rand() % 10;
 	std::string POSSIBLEFAVCOLORS[10] = { 
 		"Red", 
