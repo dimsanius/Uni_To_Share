@@ -13,7 +13,9 @@ public:
 	Student();
 	~Student();
 	void greet();
+	void greetCompletely();
 	std::string getName();
 	void meet(Student);
+	void meetWithReply(Student);
 };
 
