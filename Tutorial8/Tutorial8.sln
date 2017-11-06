@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1 Text file IO", "Ex1 Tex
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex2 Word search", "Ex2 Word search\Ex2 Word search.vcxproj", "{439F0DD2-91DA-4BFE-80A7-96B991804128}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 Random Numbers", "Ex3 Random Numbers\Ex3 Random Numbers.vcxproj", "{69C8F36D-E66E-46FD-B885-84FD46A13A9F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{439F0DD2-91DA-4BFE-80A7-96B991804128}.Release|x64.Build.0 = Release|x64
 		{439F0DD2-91DA-4BFE-80A7-96B991804128}.Release|x86.ActiveCfg = Release|Win32
 		{439F0DD2-91DA-4BFE-80A7-96B991804128}.Release|x86.Build.0 = Release|Win32
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Debug|x64.ActiveCfg = Debug|x64
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Debug|x64.Build.0 = Debug|x64
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Debug|x86.ActiveCfg = Debug|Win32
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Debug|x86.Build.0 = Debug|Win32
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Release|x64.ActiveCfg = Release|x64
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Release|x64.Build.0 = Release|x64
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Release|x86.ActiveCfg = Release|Win32
+		{69C8F36D-E66E-46FD-B885-84FD46A13A9F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

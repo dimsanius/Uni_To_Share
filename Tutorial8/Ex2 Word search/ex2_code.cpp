@@ -34,6 +34,7 @@ int main()
 			timesMatched++;
 
 	cout << "Word '" << wordToSearch << "' was found " << timesMatched << " times." << endl;
+	inputDataStream.close();
 	system("pause");
 	return 0;
 }
