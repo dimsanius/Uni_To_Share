@@ -9,48 +9,31 @@ int main()
 {
 	ifstream inputDataStream("data.txt");
 	string wordToSearch = "awesome";
-	string inputLine;
-	string word;
+	string originalInput;
+	string tempWord;
 	int timesMatched = 0;
 	string removedCommas;
 
-	cout << "Reading file" << endl;
-
-	//removing commas
-	while (getline(inputDataStream, inputLine))
+	cout << "\tReading whole text with removed commas" << endl;
+	//reading whole text with commas removed
+	//this code will read only words that match wordToSearch witout reading words that consist wordToRead
+	while (getline(inputDataStream, originalInput))
 	{
-		
-		istringstream ss(inputLine);
-
-		while (getline(ss, word, ','))
+		istringstream ss(originalInput);
+		while (getline(ss, tempWord, ','))
 		{
-				removedCommas += word;
-				if (word == wordToSearch)
-					timesMatched++;
-			
+				removedCommas += tempWord;
 		}
 		cout << removedCommas << endl;
 	}
 	
-/*
-	int pos = 0;
-	while (true) {
-		pos = removedCommas.find(wordToSearch, ++pos);
-		if (pos != std::string::npos) {
-			timesMatched++;
-		}
-		else break;
-	}
-	*/
-
-	getline(cin, removedCommas);
+	//Scaning word by word
 	istringstream ss(removedCommas);
-	while (ss >> word)
-		if (word == wordToSearch)
+	while (ss >> tempWord)
+		if (tempWord == wordToSearch)
 			timesMatched++;
 
 	cout << "Word '" << wordToSearch << "' was found " << timesMatched << " times." << endl;
-	//https://stackoverflow.com/questions/18318980/taking-input-of-a-string-word-by-word
 	system("pause");
 	return 0;
 }
