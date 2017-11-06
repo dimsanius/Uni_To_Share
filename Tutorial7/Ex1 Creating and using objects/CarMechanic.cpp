@@ -13,15 +13,12 @@ CarMechanic::~CarMechanic()
 
 void CarMechanic::repairCar(Car & carToFix)
 {
-	std::cout << "Mechanic " << name << " is working!!!" << std::endl;
-	carToFix.repairNow();
-	
+	carToFix.repairNow(*this);
 }
 
 void CarMechanic::oilChange(Car & carToReoil)
 {
-	std::cout << "Mechanic " << name << " is changing oil!!!" << std::endl;
-	carToReoil.ReOil();
+	carToReoil.ReOil(*this);
 
 }
 
@@ -29,5 +26,10 @@ void CarMechanic::resprayCar(Car & carToRespray, std::string sprayColor)
 {
 	carToRespray.respray(sprayColor);
 
+}
+
+std::string CarMechanic::getName()
+{
+	return name;
 }
 

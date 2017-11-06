@@ -15,7 +15,8 @@ private:
 	bool brokenDown;
 	int totalKmTravelled = 0;
 	int oilQuality = 3;
-	std::string color= "white";
+	std::string color= "";
+	std::string lastMechanicName;
 
 public:
 	Car();
@@ -26,17 +27,18 @@ public:
 	bool hasFuel();
 	void refuel();
 	void breakDownNow();
-	void repairNow();
+	void repairNow(CarMechanic);
 	bool isBrokenDown();
 	int getTotalKmTravelled();
 
 	bool hasOil();
-	void ReOil();
+	void ReOil(CarMechanic);
+
+	std::string getLastMechanicName(CarMechanic);
 
 	void respray(std::string);
 	std::string getColor();
-//protected:
-	//CarMechanic* cm;
+	
 };
 
 #endif

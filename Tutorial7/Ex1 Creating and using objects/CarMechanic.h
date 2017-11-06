@@ -19,5 +19,6 @@ public:
 	void repairCar(Car & carToFix);
 	void oilChange(Car & carToReoil);
 	void resprayCar(Car & carToRespray, std::string sprayColor);
+	std::string getName();
 };
 #endif

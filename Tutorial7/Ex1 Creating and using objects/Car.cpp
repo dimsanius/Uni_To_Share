@@ -1,6 +1,6 @@
 #include "Car.h"
 #include <iostream>
-
+#include "CarMechanic.h"
 
 Car::Car()
 {
@@ -31,7 +31,7 @@ void Car::drive()
 			{
 				fuelLeft--;
 				oilQuality--;
-				std::cout << "drives car 1km" << std::endl;
+				std::cout << "\tdrives car 1km" << std::endl;
 				totalKmTravelled++;
 			}
 		}
@@ -55,9 +55,11 @@ void Car::breakDownNow()
 	brokenDown = true;
 }
 
- void Car::repairNow()
+ void Car::repairNow(CarMechanic mechanic)
 {
+	lastMechanicName = mechanic.getName();
 	brokenDown = false;
+	std::cout << "Mechanic " << lastMechanicName << " is fixing a car." << std::endl;
 }
 
 bool Car::isBrokenDown()
@@ -82,9 +84,16 @@ bool Car::hasOil()
 		return 1;
 }
 
-void Car::ReOil()
+void Car::ReOil(CarMechanic mechanic)
 {
+	lastMechanicName = mechanic.getName();
+	std::cout << "Mechanic " << lastMechanicName << " is changing oil!!!" << std::endl;
 	oilQuality = 3;
+}
+
+std::string Car::getLastMechanicName(CarMechanic)
+{
+	return std::string();
 }
 
 void Car::respray(std::string colorToRespray)
@@ -96,8 +105,3 @@ std::string Car::getColor()
 {
 	return color;
 }
-
-//CarMechanic * Car::getCarMechanic(CarMechanic * cm)
-//{
-//	return cm;
-//}
