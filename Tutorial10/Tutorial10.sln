@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.15
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex1 10x10", "Ex1 10x10\Ex1 10x10.vcxproj", "{BBE9FFC0-6BC2-49E7-A982-79A97AEC75A1}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Ex3 Dynamic multiplication square", "Ex3 Dynamic multiplication square\Ex3 Dynamic multiplication square.vcxproj", "{E1898DAB-3933-442C-8040-3ECBD97E68F4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{BBE9FFC0-6BC2-49E7-A982-79A97AEC75A1}.Release|x64.Build.0 = Release|x64
 		{BBE9FFC0-6BC2-49E7-A982-79A97AEC75A1}.Release|x86.ActiveCfg = Release|Win32
 		{BBE9FFC0-6BC2-49E7-A982-79A97AEC75A1}.Release|x86.Build.0 = Release|Win32
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Debug|x64.ActiveCfg = Debug|x64
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Debug|x64.Build.0 = Debug|x64
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Debug|x86.ActiveCfg = Debug|Win32
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Debug|x86.Build.0 = Debug|Win32
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Release|x64.ActiveCfg = Release|x64
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Release|x64.Build.0 = Release|x64
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Release|x86.ActiveCfg = Release|Win32
+		{E1898DAB-3933-442C-8040-3ECBD97E68F4}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
